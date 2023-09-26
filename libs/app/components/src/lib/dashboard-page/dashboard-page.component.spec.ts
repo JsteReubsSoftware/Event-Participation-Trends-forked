@@ -371,7 +371,7 @@ describe('DashboardPageComponent', () => {
   it('should not show stats on side if window inner width is less than 1300', () => {
     window.innerWidth = 1299;
     window.dispatchEvent(new Event('resize'));
-    expect(component.showStatsOnSide).toBe(false);
+    expect(component.showStatsOnSide).toBe(false); 
   });
 
   it('should be a largescreen if window inner width is greater than 1024', () => {
