@@ -12,5 +12,5 @@
     "src/**/*.test.ts",
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
-  ]
+, "src/lib/floorplan-editor-page/app-floorplan.component.spec.ts"  ]
 }
